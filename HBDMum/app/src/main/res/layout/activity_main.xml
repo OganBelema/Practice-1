@@ -9,14 +9,12 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/mum"
-        android:scaleType="centerCrop" />
+        android:src="@drawable/cake" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday Mum"
         android:textSize="36sp"
-        android:textColor="@android:color/white"
         android:textStyle="bold"
         android:layout_margin="8dp"
         android:fontFamily="cursive"/>
@@ -24,21 +22,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:text="We Love you so much
-        😍😘🎂"
-        android:layout_centerVertical="true"
+        android:text="We Love you so much"
         android:layout_centerHorizontal="true"
+        android:layout_above="@+id/sgn"
         android:textSize="36sp"
         android:textStyle="bold"
         android:fontFamily="cursive"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/sgn"
         android:text="Your children"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textColor="@android:color/white"
         android:textSize="36sp"
         android:textStyle="bold"
         android:fontFamily="cursive"
